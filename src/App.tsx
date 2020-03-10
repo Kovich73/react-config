@@ -1,6 +1,6 @@
 import React from 'react';
-import Hotels from './containers/Hotels';
+import Main from './pages/Main';
 
-const App = () => <Hotels />;
+const App = () => <Main />;
 
 export default App;

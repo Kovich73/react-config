@@ -1,8 +1,8 @@
 import { combineReducers } from 'redux';
-import { hotelsReducer } from './hotels';
+import { exampleReducer } from './example';
 
 const rootReducer = combineReducers({
-  hotels: hotelsReducer,
+  example: exampleReducer,
 });
 
 export default rootReducer;
